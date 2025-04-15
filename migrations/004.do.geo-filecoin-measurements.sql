@@ -12,9 +12,9 @@ CREATE TABLE IF NOT EXISTS geo_measurements (
     city TEXT,
     
     -- Performance data
-    latency BIGINT,
-    ttfb BIGINT,
-    throughput BIGINT,
+    latency FLOAT,
+    ttfb FLOAT,
+    throughput FLOAT,
     
     -- Provider info
     miner_id TEXT,
